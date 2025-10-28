@@ -1,0 +1,382 @@
+.where-to-buy {
+  margin-top: 80px;
+  background: #fafafa;
+}
+
+/* Hero Section - Matching Our Story Design */
+.buy-hero {
+  position: relative;
+  padding: 60px 0 40px 0;
+}
+
+.buy-hero .container-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.buy-hero .corners {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  min-height: 320px;
+  border-top: 6px solid #2350d7;
+  border-left: 6px solid #2350d7;
+  border-bottom: 6px solid #2350d7;
+  border-right: none;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+.buy-hero .text-content {
+  width: 100%;
+}
+
+.buy-hero .title {
+  font-family: 'Montserrat','Century Gothic',Arial,sans-serif;
+  font-weight: 700;
+  color: #2350d7;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.25;
+  margin: 0 0 24px 0;
+}
+
+.buy-hero .subtitle {
+  font-family: 'Montserrat','Century Gothic',Arial,sans-serif;
+  color: #2350d7;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+/* RTL support for Arabic */
+[dir="rtl"] .buy-hero .text-content {
+  text-align: right;
+}
+
+[dir="rtl"] .buy-hero .title,
+[dir="rtl"] .buy-hero .subtitle {
+  text-align: right;
+}
+
+.retailers-section {
+  padding: 4rem 0;
+}
+
+.retailers-section h2 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.retailers-section p {
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 3rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.retailers-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.retailer-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.retailer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.retailer-content {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  min-height: 320px;
+  align-items: stretch;
+}
+
+.retailer-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.retailer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.retailer-name {
+  color: #1a1a1a;
+  font-size: 1.8rem;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+.retailer-type {
+  background: #f0f0f0;
+  color: #666;
+  padding: 0.25rem 0.6rem;
+  border-radius: 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.retailer-location {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.location-icon {
+  font-size: 1.2rem;
+  margin-top: 0.1rem;
+}
+
+.location-details strong {
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.location-details .address {
+  color: #666;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+.retailer-phone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.phone-icon {
+  font-size: 1.2rem;
+}
+
+.phone-link {
+  color: #2350d7;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.phone-link:hover {
+  color: #1a3fa0;
+  text-decoration: underline;
+}
+
+.retailer-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.stars {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.star {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.star.filled {
+  color: #ffd700;
+}
+
+.rating-text {
+  color: #1a1a1a;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+.reviews-count {
+  color: #666;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+.retailer-description {
+  color: #4a4a4a;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+}
+
+.retailer-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.view-map-btn {
+  background: transparent;
+  color: #2350d7;
+  border: 1px solid #2350d7;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+.view-map-btn:hover {
+  background: #2350d7;
+  color: white;
+}
+
+.call-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+.call-btn:hover {
+  background: #218838;
+}
+
+/* Online shop button styling */
+.shop-online-btn {
+  background: linear-gradient(135deg, #2196f3, #1976d2);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.3);
+}
+
+.shop-online-btn:hover {
+  background: linear-gradient(135deg, #1976d2, #1565c0);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.4);
+}
+
+.retailer-image {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  background: #f5f5f5;
+}
+
+.retailer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.retailer-card:hover .retailer-image img {
+  transform: scale(1.05);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Laptop/Desktop fixed card sizing */
+@media (min-width: 992px) {
+  .retailers-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .retailer-content { min-height: 360px; }
+  .retailer-info { padding: 1.25rem; }
+  .retailer-image { height: 390px; min-height: 320px; }
+}
+
+@media (max-width: 900px) {
+  .retailers-grid { grid-template-columns: 1fr; }
+  .retailer-content { grid-template-columns: 1fr; min-height: auto; }
+  
+  .retailer-image { height: auto; min-height: 220px; width: 100%; }
+  .retailer-image img { width: 100%; height: 100%; object-fit: contain; }
+  
+  .retailer-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .retailer-actions {
+    flex-direction: column;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .retailer-info {
+    padding: 1rem;
+  }
+  
+  .retailer-image { height: auto; min-height: 200px; width: 100%; }
+  .retailer-image img { width: 100%; height: 100%; object-fit: contain; }
+  
+  .retailer-name {
+    font-size: 1.2rem;
+  }
+  
+  .retailer-rating {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+  
+  .phone-link {
+    font-size: 0.9rem;
+  }
+  
+  .shop-online-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}

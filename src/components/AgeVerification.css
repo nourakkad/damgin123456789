@@ -1,0 +1,191 @@
+.age-verification-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  backdrop-filter: blur(10px);
+}
+
+.age-verification-modal {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0;
+  padding: 80px 60px;
+  text-align: center;
+  max-width: 700px;
+  width: 90%;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(30px);
+  position: relative;
+  overflow: hidden;
+  animation: bounceIn 1s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both;
+}
+
+.age-verification-modal::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+  animation: shimmer 3s infinite;
+  z-index: -1;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.age-verification-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #e9d187;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeInUp 1.2s cubic-bezier(0.4, 0, 0.2, 1) 0.5s both;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.age-verification-subtitle {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  opacity: 0.9;
+  animation: fadeInUp 1s ease-out 0.5s both;
+}
+
+.age-verification-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 1s ease-out 0.7s both;
+}
+
+.age-verification-btn {
+  padding: 15px 40px;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  min-width: 160px;
+}
+
+.age-verification-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.age-verification-btn:hover::before {
+  left: 100%;
+}
+
+.age-verification-btn.yes {
+  background: linear-gradient(135deg, #92003a 0%, #db545a 100%);
+  color: #ffffff;
+  border-color: #92003a;
+}
+
+.age-verification-btn.yes:hover {
+  background: linear-gradient(135deg, #830034 0%, #d63b42 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(146, 0, 58, 0.4);
+}
+
+.age-verification-btn.no {
+  background: transparent;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.age-verification-btn.no:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+}
+
+.age-verification-disclaimer {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 30px;
+  line-height: 1.5;
+  animation: fadeInUp 1s ease-out 0.9s both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .age-verification-modal {
+    padding: 60px 40px;
+    margin: 20px;
+  }
+  
+  .age-verification-title {
+    font-size: 2.5rem;
+  }
+  
+  .age-verification-subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .age-verification-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .age-verification-btn {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 480px) {
+  .age-verification-modal {
+    padding: 40px 20px;
+  }
+  
+  .age-verification-title {
+    font-size: 2rem;
+  }
+  
+  .age-verification-subtitle {
+    font-size: 1rem;
+  }
+} 
