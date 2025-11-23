@@ -47,22 +47,27 @@
     "backToBlog": "Torna al blog",
     "posts": {
       "1": {
+        "title": "Produrre Gin in Mezzo al Conflitto",
+        "excerpt": "",
+        "category": "News "
+        },
+      "2": {
         "title": "Damascus Gin approda in Giappone!",
         "excerpt": "",
         "category": "News "
       },
-      "2": {
+      "3": {
         "title": "La nostra seconda produzione è in arrivo!",
         "excerpt": "",
         "category": "News "
       },
-      "3": { "title": "Uno Spirito Verde", "excerpt": "", "category": "News " },
-      "4": {
+      "4": { "title": "Uno Spirito Verde", "excerpt": "", "category": "News " },
+      "5": {
         "title": "La storia continua – Lotto N. 3",
         "excerpt": "",
         "category": "News "
       },
-      "5": {
+      "6": {
         "title": "Piantando il Futuro: 20 Alberi di Ginepro ",
         "excerpt": "",
         "category": "News "
@@ -72,24 +77,29 @@
       "1": {
         "author": "Damascus Gin Team",
         "readTime": "2 min read",
+        "content": "<p>Lo ammetto: ogni volta che vedo le distillerie perfette e le bottiglie impeccabili dei produttori di gin in paesi tranquilli e stabili, provo un po’ di invidia. Non perché non lo meritino, ma perché il percorso che abbiamo percorso con Damascus Gin è stato completamente diverso.</p><p>Produrre gin in mezzo a un conflitto non è solo difficile. È lento, estenuante e imprevedibile. Eppure, siamo ancora qui.</p><p>Damascus Gin è nato da un sogno tanto folle quanto bello: creare un gin che unisse l’anima della Siria e del Libano. Suona poetico ora, ma nella pratica è stata una vera lotta conle frontiere che chiudono da un giorno all’altro, con le regole che cambiano senza preavviso e con le spedizioni che restano bloccate per settimane. Le etichette sono state disegnate da giovani artisti siriani che lavoravano tra blackout e connessioni internet quasi inesistenti. Ogni passo ha richiesto più tempo, più denaro e più pazienza di quanto avessimo immaginato.</p><p>Quando finalmente avevamo tutto pronto, il gin, la scatola, il sigillo di cera, le bottiglie numerate al laser, il Libano si è ritrovato di nuovo sull’orlo di un’altra guerra. Bombe al sud e a Beirut, bar vuoti, turisti assenti. Esportare sembrava impossibile. Persino festeggiare sembrava fuori luogo. Avevamo creato qualcosa di bello, ma forse nessuno l’avrebbe mai assaggiato.</p><p>Eppure, siamo andati avanti.</p><p>Molti mi chiedono perché. Sì, e’ vero, vogliamo vendere gin, crescere, vedere Damascus Gin a Londra o a Tokyo. Ma è molto di più. Vogliamo mostrare che questa regione, così segnata dalla guerra, è anche terra di storie, creatività e patrimonio. È qui che è nato l’alfabeto, dove l’uomo ha iniziato a dare un senso al mondo.</p><p>Produrre gin, qui, non è solo un lavoro. È una dichiarazione. È tenacia, orgoglio e speranza in bottiglia.</p>"
+        },
+      "2": {
+        "author": "Damascus Gin Team",
+        "readTime": "2 min read",
         "content": "<p>Dopo diversi mesi di viaggio per mare, il primo carico di Damascus Gin è ufficialmente arrivato in Giappone. </p><p>Dopo alcuni giorni in dogana, Damascus Gin ha finalmente fatto il suo debutto nella ‘Terra dei Samurai’.</p><p>Ora disponibile presso il negozio The Ancient World, Damascus Gin è pronto a portare un tocco del Levante in Giappone, unendo tradizione e innovazione in ogni bottiglia. </p><p>Speriamo che diventi il preferito tra gli appassionati giapponesi di gin e apra la strada per l’espansione di Damascus Gin in altre località del Paese.</p><p>Un brindisi a nuovi inizi in Giappone!</p>"
       },
-      "2": {
+      "3": {
         "author": "Damascus Gin Team",
         "readTime": "3 min read",
         "content": "<p>Siamo entusiasti di annunciare che la nostra seconda produzione di Damascus Gin è ufficialmente in lavorazione! Sulla scia del successo della prima, abbiamo iniziato le fasi di imbottigliamento, etichettatura e confezionamento di questa nuova produzione, assicurandoci che ogni bottiglia mantenga l’unicità e l’alta qualità che definiscono il Damascus Gin.</p><p>Ogni bottiglia è preparata a mano con cura, prestando attenzione ai dettagli in ogni fase, dall'inizio alla fine.</p><p>Abbiamo appena ricevuto un lotto fresco di piccole rose di Damasco, che verranno messe in bustine per ogni bottiglia.</p><p>Abbiamo appena ricevuto un lotto fresco di piccole rose di Damasco, che verranno messe in bustine per ogni bottiglia.</p>"
       },
-      "3": {
+      "4": {
         "author": "Damascus Gin Team",
         "readTime": "2 min read",
         "content": "<h2>Il Percorso di Damascus Gin verso la Sostenibilità</h2><p>In Damascus Gin crediamo che una buona bevanda debba anche fare del bene. Nata in Libano e realizzata con i migliori ingredienti del Libano e della Siria, la nostra gin è molto più di una miscela di botanici: è una dichiarazione di impegno verso l’ambiente e le comunità che ci circondano.</p><p>Non siamo perfetti, ma siamo impegnati. Dall’uso di ginepro biologico e rose di Damasco di origine locale, alla distillazione in una cantina alimentata da energia solare, ogni fase del nostro processo è guidata dal rispetto per la terra. Ricicliamo l’acqua per irrigare i vigneti vicini, utilizziamo bottiglie di vetro riciclato e cerchiamo costantemente alternative di imballaggio che non danneggino il pianeta.</p><p>Sappiamo anche che esportare i nostri prodotti lascia un’impronta. Per questo stiamo lanciando un progetto di riforestazione a Wata Al Joz, in Libano, per compensare le nostre emissioni. È uno dei tanti passi che stiamo compiendo, perché il cambiamento si costruisce bottiglia dopo bottiglia.</p><p>Le nostre etichette e i nostri design sono opera di giovani talenti locali, aggiungendo a ogni bottiglia un significato più profondo: uno di speranza, resilienza ed eredità condivisa tra Siria e Libano.</p><p>La sostenibilità non è una casella da spuntare. È un percorso che siamo orgogliosi di intraprendere, insieme al nostro team, alla nostra terra e a tutti coloro che alzano il calice con noi.</p>"
       },
-      "4": {
+      "5": {
         "author": "Damascus Gin Team",
         "readTime": "6 min read",
         "content": "<h2>Ogni lotto di Damascus Gin racconta la sua propria storia.</h2><p>Rinato, il Lotto N. 3, è stato creato dalle stesse mani, guidato dallo stesso cuore, ma segnato dal tempo, dal clima e dai silenziosi misteri della natura.</p><p>Poiché produciamo il nostro gin in piccoli lotti, non ce ne sono mai due perfettamente uguali. Ed è proprio lì che risiede parte della sua magia. I pistacchi di Aleppo, tra i migliori al mondo, donano un calore morbido e tostato. La rosa di Damasco sussurra il suo fragranza. L’acqua pura di sorgente di montagna tiene tutto insieme come un ricordo in bottiglia, assicurando che il ginepro si faccia sentire.</p><p>Facciamo tutto noi appositamente con lentezza. Dalla distillazione all’imbottigliamento, dalla sigillatura in cera di ogni bottiglia fino a sistemarla con cura nella sua confezione, pronta a partire verso il mondo.</p><p>Il Lotto N. 3 può presentare piccole differenze, ma la sua essenza resta intatta: un gin nato dal territorio, dalla passione e dalla pazienza.</p><p>Bevilo con calma. Lascia che ti racconti la sua versione della storia.</p>"
       },
-      "5": {
+      "6": {
         "author": "Damascus Gin Team",
         "readTime": "4 min read",
         "content": "<h2>Mettono Radici nella Cantina Bybline</h2><p>Nella cantina Bybline, sostenibilità e tradizione vanno di pari passo. Quest'anno abbiamo fatto un passo importante verso il futuro di Damascus Gin piantando 20 alberi di ginepro siriaco (Juniperus drupacea) nei terreni della cantina. Conosciuto per le sue bacche aromatiche, questo ginepro autoctono e raro è l’anima del nostro gin, donandogli i sapori distintivi che rendono Damascus Gin davvero unico. Pochi gin al mondo utilizzano questa varietà nella loro produzione.</p><p>La decisione di piantare questi alberi riflette il nostro impegno verso la sostenibilità. Coltivando il nostro ginepro garantiamo una fonte affidabile ed ecologica di questo ingrediente essenziale, riducendo la dipendenza dalla raccolta selvatica e contribuendo a preservare l’ecosistema naturale. È un piccolo passo, ma di grande significato verso un futuro più verde per la nostra distilleria.</p><p>Il giorno della piantumazione è stato un momento speciale, pieno di energia e passione. Jonas, il figlio del nostro mastro distillatore Joseph, era in prima linea, scavando, piantando e annaffiando ogni albero con cura. Il suo entusiasmo era contagioso, e non c’è dubbio che il legame con Damascus Gin scorra forte nelle sue vene. Speriamo che un giorno Jonas prenda le redini della cantina e continui la tradizione di produrre vini e distillati eccezionali con la stessa dedizione e amore che suo padre ha messo in ogni bottiglia.</p><p>Man mano che questi alberi crescono, cresce anche la nostra promessa di sostenibilità e innovazione. Unisciti a noi in questo percorso e brindiamo insieme a un futuro costruito sulla tradizione e la passione.</p><p>Presto condivideremo altre notizie e foto dei nostri ginepri mentre crescono.</p><p>Damascus Gin: Distillato con cura, radicato nella tradizione.</p>"

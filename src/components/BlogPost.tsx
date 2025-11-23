@@ -27,6 +27,27 @@ const BlogPost: React.FC = () => {
   const blogPosts: BlogPostData[] = [
     {
       id: 1,
+      title: 'Making Gin in the Middle of Conflict',
+      excerpt: '',
+      content: `
+       <h2>Take Root at Bybline Winery</h2>
+        <p>I’ll admit it, every time I see the beautiful distilleries and perfect bottles from gin makers in calm, peaceful places, I feel a little envy. Not because they don’t deserve it, but because the path we’ve taken with Damascus Gin has been something else entirely.</p>
+        <p>Making gin in the middle of conflict is not just difficult. It’s slow, exhausting, and unpredictable. Yet somehow, we’re still here.</p>
+        <p>Damascus Gin was born from a wild idea: to create a gin that blends the soul of Syria and Lebanon. It sounds poetic now, but in reality, it’s been a fight. Borders close overnight, rules change without warning, and shipments of botanicals or bottles get stuck for weeks. The labels were designed by young Syrian artists working with constant power cuts and almost no internet. Every step took longer, cost more, and tested our patience.</p>
+        <p>When we finally had everything ready; the gin, the box, the wax seal, the laser-numbered bottles, Lebanon found itself on the edge of another war. Bombs in the south and Beirut, silence in the bars, tourists gone. Export felt impossible. Even celebrating felt wrong. We’d built something we were proud of, but no one might ever get to taste it.</p>
+        <p>And still, we kept going.</p>
+        <p>People ask why. Yes, we want to sell gin, to grow, to see Damascus Gin in London or Tokyo. But it’s more than that. We want to show that this region, too often defined by war, is a place of stories, creativity, and heritage. It’s where the alphabet was born, where people first began to make sense of the world.</p>
+        <p>Making gin here is not a business plan; it’s a statement. It’s stubbornness, pride, and hope in a bottle.</p>
+        
+        `,
+      image: '/images/news/blog-6.jpeg',
+      date: '2023-12-20',
+      category: 'News',
+      author: 'Damascus Gin Team',
+      readTime: '10 min read'
+    },
+    {
+      id: 2,
       title: 'Damascus Gin Lands in Japan!',
       excerpt: '',
       content: `
@@ -46,7 +67,7 @@ const BlogPost: React.FC = () => {
       readTime: '5 min read'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Our Second Batch is Underway!',
       excerpt: '',
       content: `
@@ -67,7 +88,7 @@ const BlogPost: React.FC = () => {
       readTime: '7 min read'
     },
     {
-      id: 3,
+      id: 4,
       title: 'A Greener Spirit',
       excerpt: '',
       content: `
@@ -85,7 +106,7 @@ const BlogPost: React.FC = () => {
       readTime: '6 min read'
     },
     {
-      id: 4,
+      id: 5,
       title: 'The Story Continues – Batch No. 3',
       excerpt: '',
       content: `
@@ -105,7 +126,7 @@ const BlogPost: React.FC = () => {
       readTime: '8 min read'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Planting the Future: 20 Syrian Juniper Trees ',
       excerpt: '',
       content: `
@@ -125,6 +146,7 @@ const BlogPost: React.FC = () => {
       author: 'Damascus Gin Team',
       readTime: '10 min read'
     }
+    
   ];
 
   const post = (() => {

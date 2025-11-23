@@ -18,6 +18,14 @@ const Blog: React.FC = () => {
   const newsData = [
     {
       id: 1,
+      title: 'Making Gin in the Middle of Conflict',
+      excerpt: '',
+      image: '/images/news/blog-6.jpeg',
+      date: '2023-12-20',
+      category: 'News',
+    },
+    {
+      id: 2,
       title: 'Damascus Gin Lands in Japan',
       excerpt: 'Our flagship gin has been recognized for its exceptional quality and unique flavor profile at the prestigious International Spirits Competition.',
       image: '/images/news/blog-1.jpg',
@@ -25,15 +33,15 @@ const Blog: React.FC = () => {
       category: 'News'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Our Second Batch is Underway',
-      excerpt: 'Discover the meticulous process behind crafting our signature gin, from botanical selection to the final distillation.',
+      excerpt: '',
       image: '/images/news/blog-2.jpg',
       date: '2024-01-10',
       category: 'News'
     },
     {
-      id: 3,
+      id: 4,
       title: 'A Greener Spirit',
       excerpt: '',
       image: '/images/news/blog-3.jpg',
@@ -41,7 +49,7 @@ const Blog: React.FC = () => {
       category: 'News'
     },
     {
-      id: 4,
+      id: 5,
       title: 'The Story Continues',
       excerpt: '',
       image: '/images/news/blog-4.jpg',
@@ -49,7 +57,7 @@ const Blog: React.FC = () => {
       category: 'News'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Planting the Future',
       excerpt: '',
       image: '/images/news/blog-5.jpg',

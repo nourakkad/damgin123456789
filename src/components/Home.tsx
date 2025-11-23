@@ -35,11 +35,12 @@ const Home: React.FC = () => {
   const symphonyImg3Ref = useRef<HTMLDivElement>(null);
   // Blog posts (same source as Blog.tsx)
   const blogPosts = [
-    { id: 1, title: 'Damascus Gin Lands in Japan', image: '/images/news/blog-1.jpg', date: '2024-01-15', category: 'News' },
-    { id: 2, title: 'Our Second Batch is Underway', image: '/images/news/blog-2.jpg', date: '2024-01-10', category: 'News' },
-    { id: 3, title: 'A Greener Spirit', image: '/images/news/blog-3.jpg', date: '2025-05-20', category: 'News' },
-    { id: 4, title: 'The Story Continues', image: '/images/news/blog-4.jpg', date: '2025-06-28', category: 'News' },
-    { id: 5, title: 'Planting the Future', image: '/images/news/blog-5.jpg', date: '2025-08-28', category: 'News' }
+    { id: 1, title: 'Production in the Middle of the Conflict', image: '/images/news/blog-6.jpeg', date: '2024-01-15', category: 'News' },
+    { id: 2, title: 'Damascus Gin Lands in Japan', image: '/images/news/blog-1.jpg', date: '2024-01-15', category: 'News' },
+    { id: 3, title: 'Our Second Batch is Underway', image: '/images/news/blog-2.jpg', date: '2024-01-10', category: 'News' },
+    { id: 4, title: 'A Greener Spirit', image: '/images/news/blog-3.jpg', date: '2025-05-20', category: 'News' },
+    { id: 5, title: 'The Story Continues', image: '/images/news/blog-4.jpg', date: '2025-06-28', category: 'News' },
+    { id: 6, title: 'Planting the Future', image: '/images/news/blog-5.jpg', date: '2025-08-28', category: 'News' }
   ];
   // Carousel state for blog slides
   const newsImageRef = useRef<HTMLDivElement>(null);
