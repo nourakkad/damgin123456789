@@ -61,7 +61,10 @@
         "excerpt": "",
         "category": "News"
       },
-      "4": { "title": "Un Espíritu Verde", "excerpt": "", "category": "News" },
+      "4": { "title": "Un Espíritu Verde", 
+      "excerpt": "", 
+      "category": "News" 
+      },
       "5": {
         "title": "La historia continúa – Lote Nº 3",
         "excerpt": "",

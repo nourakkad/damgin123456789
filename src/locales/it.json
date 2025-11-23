@@ -61,7 +61,10 @@
         "excerpt": "",
         "category": "News "
       },
-      "4": { "title": "Uno Spirito Verde", "excerpt": "", "category": "News " },
+      "4": { "title": "Uno Spirito Verde", 
+      "excerpt": "", 
+      "category": "News " 
+      },
       "5": {
         "title": "La storia continua – Lotto N. 3",
         "excerpt": "",
